@@ -11,15 +11,6 @@ ce repo regroupe des informations explicatives sur différentes architectures we
 
 L'objectif est de fournir des explications claires et concises pour aider les développeurs à mieux comprendre et à choisir l'architecture la plus adaptée à leurs besoins.
 
-## Table des Matières
-
-1. [Architectures Verticales vs Horizontales](#architectures-verticales-vs-horizontales)
-2. [Architecture Microservices](#architecture-microservices)
-3. [Architecture Monolithique](#architecture-monolithique)
-4. [Architecture Monolithique Modulaire](#architecture-monolithique-modulaire)
-5. [Architecture Hexagonale](#architecture-hexagonale)
-6. [Ressources](#ressources)
-
 
 ## Ressources
 
