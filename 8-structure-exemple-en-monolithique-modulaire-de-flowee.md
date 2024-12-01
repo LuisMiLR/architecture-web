@@ -109,16 +109,3 @@ Le fichier **docker-compose.yml** à la racine du projet orchestre l'ensemble :
 
 #### **4. Configuration Globale**
 - **.env** : Fichier de configuration pour les variables d'environnement (comme les URLs de connexion à la base de données, les secrets pour JWT, etc.).
-
-### **Comment tout fonctionne ensemble :**
-1. **Backend** :
-   - Apollo Server est configuré pour exposer l'API **GraphQL** avec des résolveurs basés sur **TypeGraphQL**.
-   - **TypeORM** gère les interactions avec la base de données PostgreSQL, les migrations, et les entités.
-   - L'ensemble est lancé via Docker, ce qui facilite la gestion de l'environnement de développement.
-
-2. **Frontend** :
-   - **React** utilise Apollo Client pour interagir avec l'API GraphQL.
-   - Les données récupérées sont affichées dans des composants réutilisables, et la logique d'état est gérée par des hooks personnalisés.
-   - Le tout est encapsulé dans un conteneur Docker, ce qui simplifie le déploiement et le test.
-
-

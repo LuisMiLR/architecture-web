@@ -41,3 +41,5 @@ Bien que les microservices soient majoritairement considérés comme verticaux, 
 - **Complexité** : La gestion de nombreux services, des communications entre eux, et la surveillance globale du système augmentent la complexité.
 - **Déploiement** : La coordination du déploiement de plusieurs services nécessite une infrastructure DevOps solide.
 
+### Conclusion :
+L'architecture en microservices est avant tout verticale, avec des éléments horizontaux pour les services et fonctionnalités transversales. Elle permet de structurer les applications en fonction de domaines métiers, offrant ainsi une grande flexibilité et scalabilité pour les applications modernes.
